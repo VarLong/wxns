@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:attrstest="http://schemas.android.com/apk/res/com.ytrain.wxns"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_top_bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <RelativeLayout
+        android:id="@+id/rl_wisdom"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/app_top_bg" >
+
+        <ImageView
+            android:id="@+id/wifiTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/wifi_selector" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_18" />
+
+        <ImageView
+            android:id="@+id/set"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:padding="10dp"
+            android:src="@drawable/set_btn_selector" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl_wisdom"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/rl_wxns"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="5.0"
+            android:background="@color/app_bg"
+            android:gravity="center" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" >
+
+                <LinearLayout
+                    android:id="@+id/layout01"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_1"
+                        style="@style/round_horizontal"
+                        android:background="@drawable/round_1_selector" />
+
+                    <ImageView
+                        android:id="@+id/iv_2"
+                        style="@style/round_horizontal"
+                        android:background="@drawable/round_2_selector" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/layout01"
+                    android:layout_centerHorizontal="true"
+                    android:orientation="horizontal" >
+
+                    <ImageView
+                        android:id="@+id/iv_3"
+                        style="@style/round_horizontal"
+                        android:background="@drawable/round_3_selector" />
+
+                    <ImageView
+                        android:id="@+id/iv_4"
+                        style="@style/round_horizontal"
+                        android:background="@drawable/round_4_selector" />
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true" >
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:src="@drawable/rlogo" />
+                </FrameLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/corner_tip"
+                android:gravity="center"
+                android:minHeight="36dp"
+                android:paddingBottom="2dp"
+                android:paddingTop="2dp"
+                android:text=""
+                android:textColor="@color/app_text"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/llSsid"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.0"
+            android:background="@color/app_bg"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginBottom="10dp"
+                android:background="#EDF4EB" />
+
+            <TextView
+                android:id="@+id/mainUnitName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:gravity="center_horizontal"
+                android:textColor="@color/app_top_bg"
+                android:textSize="@dimen/app_16" />
+
+            <com.ytrain.wxns.widget.MyGridView
+                android:id="@+id/ssidGrd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="bottom|center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="5dp"
+                android:gravity="bottom|center_horizontal"
+                android:horizontalSpacing="5dp"
+                android:listSelector="@null"
+                android:numColumns="4"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="5dp" >
+            </com.ytrain.wxns.widget.MyGridView>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

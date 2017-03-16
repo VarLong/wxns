@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/app_top_bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true">
+
+      <include
+        android:id="@+id/top"
+        layout="@layout/top_title" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/set_about_img" />
+
+</LinearLayout>

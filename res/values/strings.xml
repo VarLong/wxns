@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">无线南山</string>
+    <string name="back">返回</string>
+    <string name="more">更多</string>
+    <!-- 导航栏目 -->
+    <string name="navi_wifi">免费上网</string>
+    <string name="navi_home">信息服务</string>
+    <string name="navi_hotspot">热点切换</string>
+    <!-- 退出 -->
+    <string name="exit_desc">你确定要退出客户端吗？</string>
+    <string name="exit_confirm">确定</string>
+    <string name="exit_cancel">取消</string>
+    <!-- 加载 -->
+    <string name="load_more">加载更多</string>
+    <string name="loading">正在加载</string>
+    <!-- 设置 -->
+    <string name="set">设置</string>
+    <string name="set_name">用户名：</string>
+    <string name="set_version">版本更新</string>
+    <string name="set_introduce">客户端介绍</string>
+    <string name="set_wap">无线南山WAP站</string>
+    <string name="set_share">短信分享</string>
+    <string name="set_guide">WIFI使用指南</string>
+    <string name="set_offdown">离线数据</string>
+    <string name="set_suggestion">意见反馈</string>
+    <string name="set_cache">清除缓存</string>
+    <string name="set_about">关于我们</string>
+    <string name="set_exit">退出APP</string>
+    <string name="set_exitnet">一键退出网络</string>
+    <!-- 菜单 -->
+    <string name="menu_offline_read">离线数据</string>
+    <string name="menu_cache">清除缓存</string>
+    <string name="menu_exit">退出</string>
+    <string name="offline_progress">正在下载离线数据</string>
+    <string name="completed_progress">50%</string>
+    <string name="background_download">稍后再下</string>
+    <!-- 区热点分类 -->
+    <string name="hotspot_1">区办事大厅</string>
+    <string name="hotspot_2">街道办事处</string>
+    <string name="hotspot_3">社区工作站</string>
+    <string name="hotspot_4">公园景区</string>
+    <string name="hotspot_5">文体场馆</string>
+    <string name="hotspot_6">社区图书馆</string>
+    <string name="hotspot_7">医院</string>
+    <string name="hotspot_8">社康中心</string>
+    <string name="hotspot_9">专业办事大厅</string>
+    <string name="hotspot_10">购物中心</string>
+    <string name="hotspot_11">旅游景点</string>
+    <string name="hotspot_12">商企大厦</string>
+    <!-- 升级更新 -->
+    <string name="update_title">软件升级</string>
+    <string name="update_content">发现新版本，建议您立即更新！</string>
+    <string name="update_ok">马上更新</string>
+    <string name="update_cancel">以后再说</string>
+   <!-- 登录 -->
+    <string name="phone">手机号：</string>
+    <string name="phone2">Phone Number</string>
+    <string name="agree">同意遵守</string>
+    <string name="agreeuser">用户协议</string>
+    <string name="wificonent">WIFI网络使用说明\n“无线南山”是南山区政府实施的民生工程之一，由南山区政府购买带宽，供公众免费使用。电信、移动和联通用户均可登录。请遵守相关法律法规，文明上网。如有违反而导致的损失及责任，由用户个人承担。</string>
+    <string name="password">密码：</string>
+    <string name="password2">Password</string>
+    <string name="getpassword">获取密码\nGet Password</string>
+    <string name="login_tip1">尊敬的用户</string>
+    <string name="login_tip2">\u3000\u3000欢迎再次使用"无线南山"免费WIFI一键上网!</string>
+    <string name="login">登录</string>
+    <string name="loginnow">立即一键登录</string>
+    <!-- J建议 -->
+    <string name="sug_ont">反馈类型：</string>
+    <string name="sug_two">反馈内容：</string>
+    <string name="sug_three">wifi所在位置：</string>
+    <string name="sug_four">手机号码：</string>
+    <string name="sug_five">确定</string>
+
+</resources>

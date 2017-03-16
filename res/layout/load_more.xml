@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:text="@string/load_more"
+        android:textColor="@color/app_text_gray"
+        android:textSize="@dimen/app_14" />
+
+    <LinearLayout
+        android:id="@+id/ll_load_more"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:gravity="center_horizontal"
+        android:visibility="visible" >
+
+        <ProgressBar
+            android:layout_width="24dp"          
+            android:layout_height="24dp"            
+            style="@style/customProgressBar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:gravity="center_vertical"
+            android:text="@string/loading"
+            android:textColor="@color/app_text_gray"
+            android:textSize="@dimen/app_14" />
+    </LinearLayout>
+
+</LinearLayout>

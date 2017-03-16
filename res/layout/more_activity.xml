@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_top_bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true" >
+
+    <include
+        android:id="@+id/top"
+        layout="@layout/top_title" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/top"
+        android:background="@color/app_bg"
+        android:overScrollMode="never"
+        android:scrollbars="none" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/app_bg"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/set_app_name"
+                android:layout_width="match_parent"
+                android:layout_height="96dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    android:id="@+id/textView2"
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/set_name"
+                    android:textSize="@dimen/app_16" />
+
+                <TextView
+                    android:id="@+id/text_message"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textView2"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="@color/app_text"
+                    android:textSize="@dimen/app_12" />
+
+                <TextView
+                    android:id="@+id/text_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_toRightOf="@+id/textView2"
+                    android:paddingLeft="10dp"
+                    android:text=""
+                    android:textColor="@color/app_text"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_exitnet"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/set_exit"
+                    android:text="@string/set_exitnet"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/tv_wap"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    android:id="@+id/tv_waptext"
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/set_wap"
+                    android:text="@string/set_wap"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_gudie"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/set_guide"
+                    android:text="@string/set_guide"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_suggestion"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/set_suggestion"
+                    android:text="@string/set_suggestion"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_set"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="2dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/set_set"
+                    android:text="@string/set"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/set_exitapp"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_gravity="center_vertical"
+                android:layout_marginBottom="3dp"
+                android:background="@drawable/set_bg_selector" >
+
+                <TextView
+                    style="@style/set_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:drawableLeft="@drawable/set_exitapp"
+                    android:text="@string/set_exit"
+                    android:textSize="@dimen/app_16" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

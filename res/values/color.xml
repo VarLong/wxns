@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="app_text_gray">#646464</color>
+    <color name="app_bg">#F8F9FA</color>
+    <color name="white">#FFFFFF</color>
+    <color name="app_text">#505050</color>
+    <color name="navi_text_normal">#505050</color>
+    <color name="navi_text_selected">#008214</color>
+    <color name="navi_bg_normal">#FFFFFF</color>
+    <color name="navi_bg_selected">#F8F9FA</color>
+    <color name="app_top_bg">#28b83e</color>
+    <color name="app_top_green">#229D35</color>
+    <color name="exit_btn_normal">#D2D2D2</color>
+    <color name="exit_bg">#FAFAFA</color>
+    <color name="progress_bar_normal">#C8C8C8</color>
+    <!-- 登录蓝色背景 -->
+    <color name="login_blue">#E2F5FE</color>
+    <!-- 提示框背景色 -->
+    <color name="tip">#FBEBD0</color>
+    <!-- 其他 -->
+    <color name="menu_color">#FF555555</color>
+    <color name="progress_bar">#468FD5</color>
+    <color name="partlist_pop_bg">#99070116</color>
+    <color name="part_grid_bg">#EDECFC</color>
+    <color name="part_grid_item_bg">#E6E3FC</color>
+    <color name="set_pressed">#F2F2F2</color>
+    <color name="unit_text">#3D80CA</color>
+    <color name="set_bg_normal">#0000</color>
+    <color name="set_bg_pressed">#DCDCDC</color>
+    <color name="home_item_bg_pressed">#EDF1F4</color>
+    <!-- 公众平台 -->
+    <color name="wechat_android">#3688DC</color>
+    <color name="wechat_ios">#E3A97B</color>
+    <color name="wechat_livelihood">#4DA8C7</color>
+    <color name="wechat_happiness">#F97479</color>
+    <color name="wechat_emergency">#5BA050</color>
+    <!-- 热点切换 -->
+    <color name="hotspot_list_bg">#E6E6E6</color>
+    <color name="hotspot_list_item_bg">#F8F8F8</color>
+    <color name="hotspot_list_item_text_normal">#333333</color>
+    <color name="hotspot_list_item_text_pressed">#3586DD</color>
+    <color name="hotspot_list_divider">#B4B4B4</color>
+    <!-- 意见反馈 -->
+    <color name="suggestion_list_bg">#E6E6E6</color>
+
+</resources>

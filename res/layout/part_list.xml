@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_top_bg"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"  >
+
+    <RelativeLayout
+        android:id="@+id/ll_part"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/app_top_bg" >
+
+        <TextView
+            android:id="@+id/tvBack"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/back"
+            android:gravity="center"
+            android:paddingLeft="6dp"
+            android:paddingRight="4dp"
+            android:text="@string/back"
+            android:textColor="#FFFFFF"
+            android:textSize="@dimen/app_18" />
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_18" />
+
+        <TextView
+            android:id="@+id/ivList"
+            android:layout_width="80dp"
+            android:layout_height="48dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:paddingLeft="6dp"
+            android:paddingRight="4dp"
+            android:text="@string/more"
+            android:textColor="@color/white"
+            android:textSize="@dimen/app_18" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/ll_part"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/partImg"
+            android:layout_width="fill_parent"
+            android:layout_height="185dip"
+            android:scaleType="fitXY" />
+
+       
+
+        <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="#0000"
+            android:background="@color/white"
+            android:scrollbars="none"
+            android:overScrollMode="never"
+            android:divider="@color/white"
+            android:dividerHeight="1.0dip" />
+    </LinearLayout>
+
+</RelativeLayout>
